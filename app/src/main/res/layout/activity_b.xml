@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.suryavalliappan.day1.BActivity">
+
+    <TextView
+        style="@style/TextCaptionStyle"
+        android:text="Random Text"/>
+    <TextView
+        android:id="@+id/activityB_text_view"
+        android:layout_weight="2"
+        style="@style/TextCaptionStyle"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="0"/>
+    <Button
+        android:id="@+id/activityB_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:text="Activity B Button"/>
+</LinearLayout>
